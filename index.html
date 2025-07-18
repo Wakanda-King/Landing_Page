@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Responsive Landing Page for Your Tech Company">
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <img src="assets/GT_logo.png" alt="Brand Logo" class="logo">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Welcome to GigaTech</h1>
+        <p>Discover innovative solutions designed to elevate your experience.</p>
+        <a href="#features" class="cta-button">Get Started</a>
+      </div>
+      <div class="hero-image-container">
+        <img src="assets/tech team.jpg" alt="Hero Image" class="hero-image">
+      </div>
+    </div>
+    <div class="placeholder-image"></div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h2>Why Choose Us</h2>
+    <img src="assets/appdev.jpg" alt="Feature Image" class="feature-image">
+    <img src="assets/ui_ux.jpg" alt="Feature Image2" class="feature-image">
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>Innovative Design</h3>
+        <p>Cutting-edge solutions tailored to your needs.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Reliable Performance</h3>
+        <p>Built for speed and efficiency.</p>
+      </div>
+      <div class="feature-card">
+        <h3>24/7 Support</h3>
+        <p>Always here to help you succeed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-content">
+      <h2>About Our Company</h2>
+      <p>
+        We are a leading tech company specializing in innovative app and web development, technical support, and customized solutions. 
+        Our mission is to empower businesses and individuals with cutting-edge technology, delivering seamless, user-focused applications 
+        and robust support services. With a team of skilled developers, designers, and support specialists, we create scalable, high-performance 
+        solutions tailored to your unique needs. Partner with us to transform your ideas into reality and achieve unparalleled success in the digital world.
+      </p>
+      <a href="#contact" class="cta-button">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact" class="contact">
+    <div class="contact-content">
+      <h2>Contact Us</h2>
+      <div class="contact-container">
+        <div class="contact-form">
+          <h3>Send Us a Message</h3>
+          <form action="/submit" method="post">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="cta-button">Submit</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p><strong>Email:</strong> info@gigatech.com</p>
+          <p><strong>Phone:</strong> +27 87 123 4567</p>
+          <p><strong>Address:</strong> 13 Colonel Gordon, Vanderbijlpark, SA</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="footer-content">
+      <p>© 2025 GigaTech. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
